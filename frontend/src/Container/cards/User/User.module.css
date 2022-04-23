@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.box {
+  width: 97%;
+  margin: 50px 1.5%;
+  background-color: rgb(255, 255, 255);
+  /* border: 1px solid black; */
+  border: 0.5px solid rgb(163, 162, 162);
+  border-left: 5px solid #80c1ff;
+  padding: 25px 20px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+  font-size: 120%;
+  box-shadow: 0 0.3px 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+.buttond1,
+.buttons,
+.buttons2 {
+  position: absolute;
+  top: -15px;
+  /*background-color: #4cc94c;*/
+  background-color: rgb(255, 210, 125);
+  color: rgb(0, 0, 0);
+  width: 18%;
+  min-width: 200px;
+  padding: 7px 20px;
+  font-size: 85%;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border: 1px solid rgb(255, 166, 0);
+  letter-spacing: 1px;
+  word-spacing: 0;
+  text-transform: capitalize;
+}
+
+.cross {
+  position: absolute;
+  top: 7%;
+  right: 3%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+}
+.flexp {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+.flex2 {
+  display: flex;
+  font-size: 80%;
+  align-items: baseline;
+  margin-bottom: 10px;
+  color: rgb(122, 122, 122);
+  font-weight: 600;
+}
+.name,
+.age,
+.gender {
+  font-size: 110%;
+  margin-right: 0px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.name {
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  font-weight: 700;
+  text-shadow: 0.5px 0.5px 0px rgb(110, 110, 110);
+  color: #005cb3;
+}
+.age {
+  font-size: 90%;
+  margin-right: 40px;
+}
+
+.gender {
+  font-size: 90%;
+  font-weight: 600;
+  color: #000000;
+}
+
+.otp,
+.sp {
+  padding-left: 5px;
+  color: black;
+}
+
+.flexp3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.flexp4 {
+  border-top: 1px solid rgb(216, 216, 216);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.buttons {
+  position: unset;
+  font-size: 100%;
+  border: 1px solid #1d84e4;
+  background-color: white;
+  color: #005cb3;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttons_scheduled {
+  position: unset;
+  font-size: 100%;
+ 
+  color: #414141;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.buttons2 {
+  position: unset;
+  font-size: 100%;
+  border: 1px solid #27be55;
+  background-color: #2ca751;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.buttons:hover {
+  border: 1px solid #1d84e4;
+  background-color: #005cb3;
+  color: white;
+}
+/*
+.name::after {
+  content: "";
+  margin-left: 10px;
+  border-right: 2px solid #0084ff;
+}
+*/
+@media (max-width: 1100px) {
+  .flexp {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .flexp {
+    width: 80%;
+  }
+}
+@media (max-width: 693px) {
+  .box {
+    width: 95%;
+    margin: 40px 2.5%;
+  }
+  .flexp {
+    width: 85%;
+  }
+}
+
+@media (max-width: 603px) {
+  .flexp {
+    width: 90%;
+  }
+}
+
+@media (max-width: 555px) {
+  .buttond1 {
+    left: 27%;
+  }
+  .buttons,
+  .buttons2 {
+    font-size: 80%;
+    min-width: 150px;
+  }
+  .flexp {
+    width: 50%;
+    flex-wrap: wrap;
+  }
+  .name {
+    margin-bottom: 10px;
+  }
+  .gender {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 492px) {
+  .flexp {
+    width: 60%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 422px) {
+  .flexp {
+    width: 70%;
+    flex-wrap: wrap;
+  }
+}
