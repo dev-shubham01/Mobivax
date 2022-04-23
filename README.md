@@ -1,2 +1,1 @@
-# ErrOr404_fullstack_hack21
-gi
+# ErrOr404_fullstack 
